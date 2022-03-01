@@ -34,7 +34,7 @@ export const HomeView = () => {
   return (
     <Row gutter={[16, 16]} align='middle'>
       <Col span={24}>
-        <h2>fasdfw ({formatUSD.format(totalBalanceInUSD)}):</h2>
+        <h2>aaaaaaa({formatUSD.format(totalBalanceInUSD)}):</h2>
         <h2>
           SOL: {SOL.balance} ({formatUSD.format(SOL.balanceInUSD)})
         </h2>
