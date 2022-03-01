@@ -36,7 +36,7 @@ export const HomeView = () => {
       <Col span={24}>
         <h2>aaaaaaa({formatUSD.format(totalBalanceInUSD)}):</h2>
         <h2>
-          Ssd: {SOL.balance} ({formatUSD.format(SOL.balanceInUSD)})
+          Sddddd: {SOL.balance} ({formatUSD.format(SOL.balanceInUSD)})
         </h2>
         <h2 style={{ display: 'inline-flex', alignItems: 'center' }}>
           <TokenIcon mintAddress={SRM_ADDRESS} /> SRM: {SRM?.balance} (
